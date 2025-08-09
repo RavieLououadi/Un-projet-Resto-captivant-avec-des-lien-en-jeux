@@ -1,0 +1,128 @@
+.parent{
+    height: auto;
+    width: auto;
+    border-radius: 1%;
+    background-color: aliceblue;
+}
+
+.navigue{
+    margin-left: 23px;
+}
+
+.navigue a {
+    margin: 0 52px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    margin-left: 150px;
+}
+
+a{
+    margin-left: 23px;
+}
+.navigue a:hover{
+    color: peru;
+    text-decoration: underline;
+}
+
+
+
+.enfant{
+    background-color: antiquewhite;
+    height: 560px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+    border-radius: 3px;
+}
+
+.enfant .reserveTable{
+    background-color: white;
+    height: 450px;
+    width: 500px;
+    margin-top: 43px;
+    margin-left: 40px;
+    border-radius: 9px;
+}
+.navigue .contact{
+    margin-left:  1000px;
+}
+#reserve.active{
+    color: peru;
+    text-decoration: underline;
+}
+.enfant .recapitulatif{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-top: 43px;
+    margin-right: 40px;
+    border-radius: 7px;
+    
+}
+.recapitulatif h1{
+    margin-left: 23px;
+}
+.recapitulatif p{
+    text-align: center;
+    color: grey;
+}
+.reserveTable h1{
+    margin-left: 23px;
+}
+.reserveTable p{
+    margin-left: 23px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+
+}
+
+label{
+    line-height: 8%;
+    margin-left: 23px;
+}
+.in{
+    width: 450px;
+    margin-left: 23px;
+    margin-bottom: 50px;
+    margin-top: -35px;
+    border: 3px solid gainsboro;
+    padding: -3px;
+}
+.on{
+    margin-bottom: 50px;
+    margin-left: 23px;
+    border: 3px solid gainsboro;
+    
+}
+.en{
+    width: 150px;
+    margin-left: 20px;
+    border: 3px solid gainsboro;
+    
+}
+.lab{
+    padding-left: 23px;
+}
+
+.recapitulatif input{
+    width: 280px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid gainsboro;
+    padding: 5px;
+}
+
+.button{
+    padding: 5px;
+    color: aliceblue;
+    background-color: peru;
+    margin-left: 73px;
+    border: 3px solid gainsboro ;
+}
+.fa-home{
+    margin-right: 8px;
+    color: peru;
+}

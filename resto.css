@@ -1,0 +1,99 @@
+.parent{
+    height: auto;
+    width: auto;
+    border-radius: 1%;
+    background-color: aliceblue;
+}
+
+.navigue{
+    margin-left: 23px;
+}
+
+.navigue a {
+    margin: 0 52px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    margin-left: 90px;
+}
+
+.enfant{
+    height: 550px;
+    width: auto;
+    background-color: peru;
+    text-align: center;
+}
+h1{
+    margin-bottom: 8%;
+    font-size: 500%;
+    color: white;
+}
+p{
+    font-size: 30px;
+    color: white;
+    line-height: 12px;
+}
+
+.navigue div{
+    background-color: peru;
+    height: 30px;
+    width: 175px;
+    margin-left:  1000px;
+    margin-bottom: 12px;
+    text-align: right;
+    float: left;
+    margin-bottom: 34px;
+    border-radius: 9%;
+}
+
+.navigue div a{
+    color: white;
+    left: 12px;
+}
+.navigue a:hover{
+    color: peru;
+    text-decoration: underline;
+}
+.navigue .reserve:hover{
+    color: black;
+}
+.momo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 53px;
+}
+.menu{
+    height: 30px;
+    width: 150px;
+    margin-left: 400px;
+    margin-right: 45px;
+    margin-top: 15px;
+    background-color: peachpuff;
+    border-radius: 4px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.table{
+    height: 30px;
+    width: 190px;
+    margin-right: 460px;
+    margin-left: 45px;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.table a{
+    color: peru;
+    text-decoration: none;
+}
+.navigue a.active{
+    color: peru;
+    text-decoration: underline;
+}
+
+.fa-home{
+    margin-right: 8px;
+    color: peru;
+}

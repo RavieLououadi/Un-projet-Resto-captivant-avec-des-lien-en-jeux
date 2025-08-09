@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reserverTable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="parent">
+        <nav class="navigue">
+            <h3><i class="fas fa-home"></i>La Maison
+                <a href="resto.html">Acceuil</a>
+                <a href="menu">Menu</a>
+                <a href="reservation" class="active" id="reserve">Réservation</a>
+                <a href="contact.html" class="contact">Contact</a>
+            </h3>    
+        </nav>
+        <div class="enfant">
+            <div class="reserveTable">
+                <h1>Réserver une Table</h1>
+                <p>Simple, rapide et sécurisé</p>
+                <form action="#" method="POST">
+                    <label for="date">Date</label><br>
+                    <input type="date" value="07-22-2024" id="date" class="in"><br>
+                    <label for="heure">Heure</label><br>
+                    <input type="time" value="19:30" id="heure" class="en">
+                    <label for="convive" class="lab">Convives</label>
+                    <input type="number" placeholder="2personnes" id="convive" class="on"><br>
+                    <label for="nomcomplet">Nom complet</label>
+                    <input type="text" value="Votre nom" id="nomcomplet" class="in"><br>
+                    <label for="addresse">Adresse e-mail</label><br>
+                    <input type="email" value="exemple@gmail.com" id="addresse" class="in">
+                </form>
+            </div>
+            <div class="recapitulatif">
+                <h1>Récapitulatif</h1>
+                <form action="#" method="POST">
+                    <input type="note" placeholder="Date    ...." id="date">
+                    <input type="note" placeholder="Heure   ...." id="heure">
+                    <input type="note" placeholder="Convives    ...." id="convive">
+                    <input type="note" placeholder="Restaurant    ...." id="La Maison">
+                    <hr>
+                    <button type="submit" class="button">CONFIRMER LA RESERVATION</button>
+                    <p>En cliquant sur "Confirmer" vous acceptez nos conditions de réservation</p>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

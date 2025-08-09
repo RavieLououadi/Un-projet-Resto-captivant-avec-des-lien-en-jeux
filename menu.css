@@ -1,0 +1,154 @@
+.parent{
+    height: auto;
+    width: auto;
+    border-radius: 1%;
+    background-color: aliceblue;
+}
+
+.navigue{
+    margin-left: 23px;
+}
+
+.navigue a {
+    margin: 0 52px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    margin-left: 90px;
+}
+
+.enfant{
+    height: 2300px;
+    width: auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.navigue div{
+    background-color: peru;
+    height: 30px;
+    width: 175px;
+    margin-left:  1000px;
+    margin-bottom: 12px;
+    text-align: right;
+    float: left;
+    margin-bottom: 34px;
+    border-radius: 9%;
+}
+
+.navigue div a{
+    color: white;
+    left: 12px;
+}
+.navigue a:hover{
+    color: peru;
+    text-decoration: underline;
+}
+.navigue .reserve:hover{
+    color: black;
+}
+
+.enfant h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom:  12px;
+    
+}
+.enfant p{
+    text-align: center;
+    color: gray;
+    line-height: 6px;
+    padding-top: 6px 6px;
+}
+
+.h3{
+    text-align: center;
+    color: peru;
+    margin-top: 63px;
+    margin-bottom: 63px;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.con1{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-left: 45px;
+    border-radius: 12px ;
+}
+
+
+img{
+    margin-top: 24px;
+    border-radius: 32px;
+}
+
+.fa-home{
+    margin-right: 8px;
+    color: peru;
+}
+
+.navigue .menu{
+    color: peru;
+    text-decoration: underline;
+}
+
+.navigue a:hover{
+    color: peru;
+    text-decoration: underline;
+}
+
+.choix{
+    background-color: peru;
+    width: auto;
+    height: 90px;
+    animation: identifier 5s infinite;
+    border-radius: 8%;
+}
+
+.po{
+    color: grey;
+    font-size: 24px;
+    font-weight: 8px;
+    text-align: center;
+    padding-top: 23px;
+    
+}
+
+@keyframes identifier{
+    0%{
+        transform: translateX(-35%);
+        
+    }
+    50%{
+        transform: translate(35%);
+        
+    }
+    100%{
+        transform: translate(-35%);
+    
+    }
+}
+
